@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Location Region</title>
+    <style>
+        a, a:hover{
+        text-decoration: none;
+        }
+
+        .location-container{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         position: absolute;
+        width: 30em;
+        padding: 0 10px;
+        right: 16rem;
+        left: auto;
+        border: 1px solid transparent;
+        border-radius: 14px;
+        box-shadow: 0 4px 28px hsla(0,0%,76.5%,.7019607843137254);
+        background: hsla(0, 0%, 100%, .65) !important;
+        }
+
+        .location-region{
+            display: flex;
+            width: 50%;
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        
+        .location-name{
+            backdrop-filter: blur(6px);
+            max-height: 100%;
+            background: #fff;
+            border-radius: 8px !important;
+            box-shadow: 0 4px 28px hsla(0,0%,92.2%,.7019607843137254);
+            
+        }
+        
+        .title-card{
+            color:#000;
+            font-size: 1em;
+            font-family: Univers Fiserv Regular, Arial;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="location-container">
+      <div class="location-region">
+        <div class="location-name">
+          <a href="#" class="location-href">
+            <h5 class="title-card">North America (English)</h5>
+          </a>
+        </div>
+        <div class="location-name">
+          <a href="#" class="location-href">
+          <h5 class="title-card">Asia Pacific (English)</h5>
+        </a>
+        </div>
+      </div>
+      <div class="location-region">
+        <div class="location-name">
+            <a href="#" class="location-href">
+            <h5 class="title-card">Europe, Middle East & Africa (English)</h5>
+        </div>
+        <div class="location-name">
+            <a href="#" class="location-href">
+            <h5 class="title-card">Brazil (Português)</h5>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
